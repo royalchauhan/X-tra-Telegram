@@ -45,8 +45,8 @@ async def _(event):
                 "**⚠️ You will be blocked and reported if you spam nibba. ⚠️**\n\n"
                 "__Use__ `/start` __to go back to the main menu.__")
          TWO = (" `███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ `\n\n**So uncool, this is not your home. Go bother someone else. You have been blocked and reported until further notice.**")
-         FOUR = ("__Okay. Msg my master on @royal2468_bot to enquire what u want cause my master no lomger replies to any persons dms . **Please do not spam unless you wish to be blocked and reported.**")
-         FIVE = ("Okay. Now send your enquiry to @royal2468_bot to get some response as my master no longer replies to any person's dms . \n**Do not ask repeatdly else you will be blocked and reported.**")
+         FOUR = ("__Okay. Msg my master on @royal2468_bot to enquire what u want cause my master no lomger replies to any persons dm . **Please do not spam unless you wish to be blocked and reported.**")
+         FIVE = ("Okay. Now send your enquiry to @royal2468_bot to get some response as my master no longer replies to any person's dm . \n**Do not ask repeatdly else you will be blocked and reported.**")
          LWARN = ("**This is your last warning. DO NOT send another message else you will be blocked and reported. Keep patience. My master will respond you ASAP.**\n__Use__ `/start` __to go back to the main menu.__")
      
         async with borg.conversation(chat) as conv:
@@ -83,7 +83,7 @@ async def _(event):
              await response.delete()
              x = response.text
              if x == "1":
-                 await borg.send_message(chat, "`Oh my, you're very much welcome here ;).\nPlease drop your offerings and let my master judge if you have good heart <3.`\n\n **Please don't flood my inbox, we'll have a nice convo once i come back ;D**")
+                 await borg.send_message(chat, "`Oh my, you're very much welcome here ;).\nPlease drop your offerings and let my master judge if you have good heart <3.`\n\n **Please don't flood my Master's inbox, He'll have a nice convo once he comes back ;D**")
                  response = await conv.get_response(chat)
                  if not response.text == "/start":
                      await borg.send_message(chat, LWARN)
@@ -96,7 +96,7 @@ async def _(event):
                          await asyncio.sleep(3)
                          await event.client(functions.contacts.BlockRequest(chat_id))
              elif x == "2":
-                 await borg.send_message(chat, "**You nigga gay af to send a guy like my your male nudes. \nLeave immediately else you become the ultimate gayest gay the gay world has ever seen. I will reply you when i get online.**")
+                 await borg.send_message(chat, "**You nigga gay af to send a guy like my masteryour male nudes. \nLeave immediately else you become the ultimate gayest gay the gay world has ever seen. My master will never reply to a gay like you so you better go away else be ready to be blocked and reported .**")
                  response = await conv.get_response(chat)
                  if not response.text == "/start":
                      await borg.send_message(chat, LWARN)
@@ -109,7 +109,7 @@ async def _(event):
                          await asyncio.sleep(3)
                          await event.client(functions.contacts.BlockRequest(chat_id))
              elif x == "3":
-                 await borg.send_message(chat, "`Please decide a gender for yourself before sending your nudes here,\n not that i'm judging if you're a helicopter or a banana but yeah, If you are anything else than a female Homo-Sapien,\n Do not send more messages and let my master see for himself if he wants to talk with you.`")
+                 await borg.send_message(chat, "`Please decide a gender for yourself before sending your nudes here,\n not that i'm judging if you're a helicopter or a banana but yeah, If you are anything else than a female Homo-Sapien,\n Do not send more messages and let my master see for himself if he wants to talk with you though he no longer read dms.`")
                  response = await conv.get_response(chat)
                  if not response.text == "/start":
                      await borg.send_message(chat, LWARN)
