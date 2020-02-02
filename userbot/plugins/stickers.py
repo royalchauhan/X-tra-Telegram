@@ -56,9 +56,9 @@ async def _(event):
     if is_a_s:
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
-        packname = f"{userid}'s @AnimatedStickersGroup"
+        packname = f"@royal2468's animated pack "
         if userid == 602507578:
-            packshortname = "Royal's_Animated_kang_pack"
+            packshortname = "Royal_Animated_pack"
         else:
             packshortname = f"Uni_Borg_{userid}_as" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
